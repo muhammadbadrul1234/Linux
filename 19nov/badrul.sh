@@ -1,8 +1,8 @@
 #! /usr/bin/bash
 mysub(){
-read -p "Emter Number 1: " A
-read -p "Emter Number 2: " B
-read -p "Emter Number 3: " C
+read -p "Enter Number 1: " A
+read -p "Enter Number 2: " B
+read -p "Enter Number 3: " C
 
 if [ $A -gt $B ] && [ $A -gt $C ]; then
     echo "A is greater"

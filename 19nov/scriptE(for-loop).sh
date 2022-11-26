@@ -9,18 +9,6 @@ do
 done    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # for n in {2..10..2}
 # do
 #     Sum=$((Sum+n))
