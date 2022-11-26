@@ -6,7 +6,6 @@ while [ $n -gt 4 ];
 do
     echo $n
     n=$((n-1))
-
 done    
 
 
