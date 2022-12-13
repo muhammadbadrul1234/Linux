@@ -134,3 +134,32 @@ echo "e" | wc >> wctask.txt
 cat wctask.txt 
       1       1       2
 
+
+
+
+# !/bin/bash
+
+user=""
+user1="Username: "
+while IFS= read -p "$user1" -r -s -n 1 char; do
+	if [[ $char == $'\0' ]] ; then
+		break
+	fi
+	user1='#'
+	user+="$char"
+done
+echo ""
+
+password=""
+password1="Password: "
+while IFS= read -p "$password1" -r -s -n 1 char; do
+	if [[ $char == $'\0' ]] ; then
+		break
+	fi
+	password1='#'
+	password+="$char"
+done
+echo ""
+
+echo  "Username : " $user
+echo  "Password : " $passwordcl
